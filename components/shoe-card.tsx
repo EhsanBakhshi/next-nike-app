@@ -9,8 +9,6 @@ interface ShoeCardProps {
 }
 
 const ShoeCard = ({ imgURL, onChange, currentImage }: ShoeCardProps) => {
-  console.log(imgURL);
-  console.log(currentImage);
   const handleClick = () => {
     if (currentImage !== imgURL.bigShoe) onChange(imgURL.bigShoe);
   };
