@@ -69,7 +69,17 @@ const Footer = () => {
             height={20}
             className="rounded-full m-0"
           />
-          <p>Copyright. All rights reserved.</p>
+          <p>
+            {new Date().getFullYear()}. Designed and developed by{" "}
+            <a
+              href="https://github.com/EhsanBakhshi"
+              className="text-coral-red"
+              target="_blank"
+            >
+              Ehsan Bakhshi
+            </a>
+            . All rights reserved.
+          </p>
         </div>
         <p className="font-montserrat cursor-pointer">Terms & Conditions</p>
       </div>
